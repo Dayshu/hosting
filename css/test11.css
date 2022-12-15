@@ -1,0 +1,28 @@
+a {
+    display: inline-block;
+    background-color: grey;
+    width: 2em;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+
+div {
+    text-align: center;
+}
+
+
+a:not([href*="#"]) {
+    opacity: .5;
+    font-weight: normal;
+}
+/* href*="#" index.html에 을 보면 자신의 페이지의 경로라고 알 수 있음
+(화면에 표시되는 페이지가 1 페이지면  1페이지 버튼만 색이 있음
+그 외의 버튼은   opacity: .5; , font-weight: normal; 을 넣음
+*/
+
+img {
+    width: 500px;
+    height: 500px;
+}
